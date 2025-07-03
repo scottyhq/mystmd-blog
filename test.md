@@ -17,3 +17,8 @@ kernelspec:
 ```{code-cell}
 print('hello world')
 ```
+
+```{code-cell}
+import xarray
+xarray.show_versions()
+```

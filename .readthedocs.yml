@@ -20,5 +20,5 @@ build:
     post_build:
       # Report full size of html folder
       - du -sh _build/html
-      - mkdir --parents $READTHEDOCS_OUTPUT/html/
-      - mv _build/html/* $READTHEDOCS_OUTPUT/html
+      - mv _build/html $READTHEDOCS_OUTPUT
+      - ls $READTHEDOCS_OUTPUT/html/
