@@ -1,0 +1,42 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+project:
+  id: 9e46900f-5557-4373-8702-dd3ecf40440d
+  # title: Xarray indexes: unleash the power of coordinates
+  description: testing description
+  keywords: [testing keywords]
+  authors:
+    - name: Benoît Bovy
+      affiliation: Georode
+      github: benbovy
+      url: https://benbovy.github.io
+    - name: Scott Henderson
+      affiliation: uw-escience
+      github: scottyhq
+      url: https://escience.washington.edu
+    - name: Deepak Cherian
+      affiliation: earthmover
+      github: dcherian
+      url: https://earthmover.io
+    - name: Max Jones
+      affiliation: carbonplan
+      github: scottyhq
+      url: https://carbonplan.org
+  affiliations:
+    - id: uw-escience
+      institution: University of Washington eScience Institute
+      # hmm, not rendered
+      # url: https://escience.washington.edu
+    - id: georode
+      institution: GEORODE B.V.
+    - id: earthmover
+      institution: Earthmover
+    - id: carbonplan
+      institution: CarbonPlan
+  toc:
+    #- file: myfirstjupytext.md
+    - file: test.md
+site:
+  template: article-theme
+  options:
+    hide_outline: false
