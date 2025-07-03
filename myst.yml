@@ -34,8 +34,7 @@ project:
     - id: carbonplan
       institution: CarbonPlan
   toc:
-    #- file: myfirstjupytext.md
-    - file: test.md
+    - file: xarray-indexes-part1.md
 site:
   template: article-theme
   options:
