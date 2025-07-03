@@ -19,6 +19,5 @@ print('hello world')
 ```
 
 ```{code-cell}
-import xarray
-xarray.show_versions()
+8*8
 ```
